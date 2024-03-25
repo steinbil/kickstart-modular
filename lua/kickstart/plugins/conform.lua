@@ -9,6 +9,7 @@ return {
       },
       formatters_by_ft = {
         lua = { 'stylua' },
+        c = { 'astyle' },
         -- Conform can also run multiple formatters sequentially
         -- python = { "isort", "black" },
         --
