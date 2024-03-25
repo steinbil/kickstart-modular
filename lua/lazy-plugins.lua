@@ -39,7 +39,7 @@ require('lazy').setup {
 
   require 'kickstart/plugins/lspconfig',
 
-  require 'kickstart/plugins/conform',
+  require 'kickstart/plugins/conform', -- also check user commands in commands.lua
 
   require 'kickstart/plugins/cmp',
 
